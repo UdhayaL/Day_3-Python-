@@ -1,0 +1,58 @@
+Maya wants to know how the Numbers are converted to string in the program.could you please help her to implements the program.
+
+Input Format
+
+input consists of one integer
+Constraints
+
+Given N is greater than 0 and lesser than 9
+Output Format
+
+print the number into string type.
+Sample Input 0
+
+0
+Sample Output 0
+
+Integer is 0 and String is Zero
+Sample Input 1
+
+2
+Sample Output 1
+
+Integer is 2 and String is Two
+Sample Input 2
+
+10
+Sample Output 2
+
+Invalid Input
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+num = int(input())
+if num == 0:
+    sn = "Zero"
+elif num == 1:
+    sn = "One"
+elif num == 2:
+    sn = "Two"
+elif num == 3:
+    sn = "Three"
+elif num == 4:
+    sn = "Four"
+elif num == 5:
+    sn = "Five"
+elif num == 6:
+    sn = "Six"
+elif num == 7:
+    sn = "Seven"
+elif num == 8:
+    sn = "Eight"
+elif num == 9:
+    sn = "Nine"
+else:
+    sn = None
+if sn is not None:
+    print(f"Integer is {num} and String is {sn}")
+else:
+    print("Invalid Input")
